@@ -4,9 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
 </head>
 <body>
-    <script src="js/script.js"></script>
+    <div class="body">
+
+        <div class="header">Rock Paper Scissors</div>
+        
+        <div class="choiceBoxContainer">
+            <div class="choiceBox rock" onmouseover="handleHover(true,'rock')" onmouseout="handleHover(false,'rock')">
+                <div class="imgBox">
+                    <img src="img/rock.png" alt="Picture of a rock">
+                </div>
+                <div class="text">Rock</div>
+            </div>
+            <div class="choiceBox paper" onmouseover="handleHover(true,'paper')" onmouseout="handleHover(false,'paper')">
+                <div class="imgBox">
+                    <img src="img/paper.png" alt="Picture of Paper">
+                </div>
+                <div class="text">Paper</div>
+            </div>
+            <div class="choiceBox scissors" onmouseover="handleHover(true,'scissors')" onmouseout="handleHover(false,'scissors')">
+                <div class="imgBox">
+                    <img src="img/scissors.png" alt="Picture of scissors">
+                </div>
+                <div class="text">Scissors</div>
+            </div>
+
+            
+
+        </div>
+
+        <div class="scoreDisplay">
+            <div class="display">
+                <div class="scoreText">PLAYER SCORE:</div>
+                <div class="scoreText playerScore">0</div>
+            </div>
+
+            <div class="display">
+                <div class="scoreText">COMPUTER SCORE:</div>
+                <div class="scoreText computerScoreNumber">0</div>
+            </div>
+
+        </div>
+        <div class="footer">This is a Footer</div>
+
+    </div>
 </body>
 </html>

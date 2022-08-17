@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: #282828;
+    color: white;
+    padding: 15px;
+}
+
+.choiceBoxContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #240090;
+}
+
+.choiceBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.imgBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: 10px solid #282828;
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    gap: 25px; 
+}
+
+.imgBox > img{
+    width: auto;
+    height: 150px;
+}
+
+.scoreDisplay{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    background-color: #0c0032;
+    padding: 50px;
+}
+
+.display{
+    display: flex;
+    align-items: center;
+}
+
+.scoreText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+}
+
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: #282828;
+    color: white;
+    padding: 15px;
+}
+
+.hovered{
+  transform: scale(1.1);
+}
