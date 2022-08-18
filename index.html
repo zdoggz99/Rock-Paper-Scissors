@@ -14,19 +14,19 @@
         <div class="header">Rock Paper Scissors</div>
         
         <div class="choiceBoxContainer">
-            <div class="choiceBox rock" onmouseover="handleHover(true,'rock')" onmouseout="handleHover(false,'rock')">
+            <div class="choiceBox rock" onmouseover="handleHover(true,'rock')" onmouseout="handleHover(false,'rock')" onmousedown="playGame(1)">
                 <div class="imgBox">
                     <img src="img/rock.png" alt="Picture of a rock">
                 </div>
                 <div class="text">Rock</div>
             </div>
-            <div class="choiceBox paper" onmouseover="handleHover(true,'paper')" onmouseout="handleHover(false,'paper')">
+            <div class="choiceBox paper" onmouseover="handleHover(true,'paper')" onmouseout="handleHover(false,'paper')" onmousedown="playGame(2)">
                 <div class="imgBox">
                     <img src="img/paper.png" alt="Picture of Paper">
                 </div>
                 <div class="text">Paper</div>
             </div>
-            <div class="choiceBox scissors" onmouseover="handleHover(true,'scissors')" onmouseout="handleHover(false,'scissors')">
+            <div class="choiceBox scissors" onmouseover="handleHover(true,'scissors')" onmouseout="handleHover(false,'scissors')" onmousedown="playGame(3)">
                 <div class="imgBox">
                     <img src="img/scissors.png" alt="Picture of scissors">
                 </div>
@@ -38,16 +38,33 @@
         </div>
 
         <div class="scoreDisplay">
-            <div class="display">
-                <div class="scoreText">PLAYER SCORE:</div>
-                <div class="scoreText playerScore">0</div>
+            <div class="score">
+                <div class="display">
+                    <div class="scoreText">PLAYER SCORE:</div>
+                    <div id='playerScore' class="scoreText changeable">0</div>
+                </div>
+
+                <div class="display">
+                    <div class="scoreText">COMPUTER SCORE:</div>
+                    <div id='computerScore' class="scoreText changeable">0</div>
+                </div>
             </div>
 
-            <div class="display">
-                <div class="scoreText">COMPUTER SCORE:</div>
-                <div class="scoreText computerScoreNumber">0</div>
+            <div id='announceWinner' class="scoreText">
+                Computer Wins!
             </div>
 
+            <div class="choice">
+                <div class="display">
+                    <div class="scoreText">Computer Chose: </div>
+                    <div id='computerChoice' class="scoreText changeable">Rock</div>
+                </div>
+                <div class="display">
+                    <div class="scoreText">You Chose: </div>
+                    <div id='playerChoice' class="scoreText changeable">Rock</div>
+                </div>
+            </div>    
+            
         </div>
         <div class="footer">This is a Footer</div>
 

@@ -34,7 +34,7 @@ body{
     align-items: center;
     gap: 20px;
     color: white;
-    font-size: large;
+    font-size: xx-large;
     font-weight: bold;
 }
 
@@ -56,16 +56,27 @@ body{
 
 .scoreDisplay{
     display: flex;
-    flex-direction: column ;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #0c0032;
     padding: 50px;
+    gap: 20px;
 }
 
 .display{
     display: flex;
     align-items: center;
+}
+
+.choice{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-items: left;
+}
+
+.scoreText.changeable{
+    color: #240090;
 }
 
 .scoreText{
