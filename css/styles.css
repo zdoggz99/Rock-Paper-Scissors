@@ -12,7 +12,7 @@ body{
     justify-content: center;
     font-size: xx-large;
     font-weight: bold;
-    background-color: #282828;
+    background-color: #499601;
     color: white;
     padding: 15px;
 }
@@ -24,7 +24,7 @@ body{
     gap: 100px;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #240090;
+    background-color: #870096;
 }
 
 .choiceBox{
@@ -42,7 +42,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    outline: 10px solid #282828;
+    outline: 10px solid #499601;
     width: 200px;
     height: 200px;
     border-radius: 25px;
@@ -58,7 +58,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #0c0032;
+    background-color: #870096;
     padding: 50px;
     gap: 20px;
 }
@@ -76,7 +76,7 @@ body{
 }
 
 .scoreText.changeable{
-    color: #240090;
+    color: #499601;
 }
 
 .scoreText{
@@ -97,7 +97,7 @@ body{
     justify-content: center;
     font-size: xx-large;
     font-weight: bold;
-    background-color: #282828;
+    background-color: #499601;
     color: white;
     padding: 15px;
 }
